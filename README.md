@@ -1,22 +1,22 @@
-# CVDNavigation [![CI Status](https://img.shields.io/travis/Covitba/CVDNavigation.svg?style=flat)](https://travis-ci.org/Covitba/CVDNavigation)
+# CVDNavigation [![Build Status](https://travis-ci.com/Covitba/CVDNavigation.svg?branch=master)](https://travis-ci.com/Covitba/CVDNavigation)
 
 ## Description
 
-CVDNavigation is a library for ...
+CVDNavigation is a library for managing internal app navigation using deeplinking
 
 ## How to use it
 
 CVDNavigation is available on the private specs repo of Covitba
 
-    1. Add the private specs repo if you never used it before
+  1. Add the private specs repo if you never used it before
 ```ruby
 $ pod repo add CVD-Specs https://github.com/Covitba/ios-specs.git
 ```
-    2. Add the specs repo to the `Podfile`
+  2. Add the specs repo to the `Podfile`
 ```ruby
 source 'https://github.com/Covitba/ios-specs.git'
 ```
-    3. Add the pod to the `Podfile`
+  3. Add the pod to the `Podfile`
 ```ruby
 pod 'CVDNavigation'
 ```
