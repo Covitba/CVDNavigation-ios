@@ -1,0 +1,14 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - ${POD_NAME}
+  - Example/${POD_NAME}
+  - Example/Tests
+line_length: 400
+# they can set both implicitly with an array
+type_body_length:
+  - 300 # warning
+  - 400 # error
+# or they can set both explicitly
+file_length:
+  warning: 500
+  error: 1200
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, html, emoji, sonarqube, markdown)
