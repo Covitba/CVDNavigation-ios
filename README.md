@@ -1,25 +1,40 @@
-# ios-pod-template
-This is a iOS template repo with the basic setup to build an iOS pod. It builds the entire pod structure, including tests and an Example app. It's already integreated with Travis :)
+# CVDNavigation [![CI Status](https://img.shields.io/travis/Covitba/CVDNavigation.svg?style=flat)](https://travis-ci.org/Covitba/CVDNavigation)
 
-## Setup the initial repo
+## Description
 
-### Branch setup
-- Our main branch is blocked, no one has permision to push directly, you must do a pull request
+CVDNavigation is a library for ...
 
-### Initialize the Pod
-For initializing the pod first we need to setup the right version of CocoaPods. In order to avoid versions conflicts, we use bundler to unify our version.
+## How to use it
+
+CVDNavigation is available on the private specs repo of Covitba
+
+    1. Add the private specs repo if you never used it before
+```ruby
+$ pod repo add CVD-Specs https://github.com/Covitba/ios-specs.git
 ```
+    2. Add the specs repo to the `Podfile`
+```ruby
+source 'https://github.com/Covitba/ios-specs.git'
+```
+    3. Add the pod to the `Podfile`
+```ruby
+pod 'CVDNavigation'
+```
+
+## Example
+
+To run the example project, clone the repo, and run:
+```ruby
 $ bundle install
+$ bundle exec pod install
+$ open CVDNavigation.xcworkspace
 ```
+from the root directory.
 
-Now we are ready to setup the pod structure:
-1. If you used this repo as template
-```
-$ ruby configure [POD_NAME]
-```
+## Author
 
-2. If you just used a normal repo
-```
-$ bundle exec pod lib create [POD_NAME] --template-url=git@github.com:Covitba/pod-template
-```
+Covitba
 
+## License
+
+CVDNavigation is available under the MIT license. See the LICENSE file for more info.

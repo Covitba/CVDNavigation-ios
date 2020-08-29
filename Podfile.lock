@@ -1,0 +1,27 @@
+PODS:
+  - CVDNavigation (0.1.0)
+  - Nimble (7.3.4)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - CVDNavigation (from `./`)
+  - Nimble (~> 7.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  CVDNavigation:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  CVDNavigation: 1f47c8b9af46157bec5589cb593b9b98180b70c9
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: 8533fefac7677e5bf42dedc0a67b1f6b6ad1fcdc
+
+COCOAPODS: 1.8.4

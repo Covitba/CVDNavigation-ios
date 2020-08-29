@@ -1,16 +1,17 @@
-workspace '${POD_NAME}'
-project 'Example/${POD_NAME}'
+workspace 'CVDNavigation'
+project 'Example/CVDNavigation'
 
 platform :ios, '12.0'
 use_frameworks!
 
-target '${POD_NAME}_Example' do
-  pod '${POD_NAME}', :path => './'
+target 'CVDNavigation_Example' do
+  pod 'CVDNavigation', :path => './'
 
-  target '${POD_NAME}_Tests' do
+  target 'CVDNavigation_Tests' do
     inherit! :search_paths
 
-    ${INCLUDED_PODS}
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0'
   end
 end
 
