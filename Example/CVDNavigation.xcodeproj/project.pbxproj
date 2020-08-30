@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		494E117824FB167900105581 /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E117724FB167900105581 /* ViewControllerB.swift */; };
+		494E117B24FB3ECC00105581 /* MockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E117A24FB3ECC00105581 /* MockViewController.swift */; };
+		494E117E24FB557600105581 /* CVDNavigationHostManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494E117C24FB555E00105581 /* CVDNavigationHostManagerTest.swift */; };
 		4B5A5DE5CF23F8A6CE27EC29 /* Pods_CVDNavigation_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D418276E904E208BE8C433FF /* Pods_CVDNavigation_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* CVDNavigationRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CVDNavigationRouterTest.swift */; };
 		A168A779E1395F83E570B4F3 /* Pods_CVDNavigation_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58A3D571D957F3CB3A4AC22 /* Pods_CVDNavigation_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +32,11 @@
 
 /* Begin PBXFileReference section */
 		440C5C7623361EC35BA4D98D /* Pods-CVDNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDNavigation_Tests.release.xcconfig"; path = "Target Support Files/Pods-CVDNavigation_Tests/Pods-CVDNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		494E117724FB167900105581 /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
+		494E117A24FB3ECC00105581 /* MockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockViewController.swift; path = RouterTests/Mock/MockViewController.swift; sourceTree = "<group>"; };
+		494E117C24FB555E00105581 /* CVDNavigationHostManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDNavigationHostManagerTest.swift; sourceTree = "<group>"; };
 		49A14648E9E5535F930F34D6 /* Pods-CVDNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDNavigation_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CVDNavigation_Tests/Pods-CVDNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4EC7A290EFFC9C6CA222FC24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4EC7A290EFFC9C6CA222FC24 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CVDNavigation_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVDNavigation_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +46,11 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CVDNavigation_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVDNavigation_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* CVDNavigationRouterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVDNavigationRouterTest.swift; sourceTree = "<group>"; };
 		744A90CC1E865971A35A4A0B /* Pods-CVDNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDNavigation_Example.release.xcconfig"; path = "Target Support Files/Pods-CVDNavigation_Example/Pods-CVDNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7FC1D55B2190AE1190996193 /* Pods-CVDNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVDNavigation_Example.debug.xcconfig"; path = "Target Support Files/Pods-CVDNavigation_Example/Pods-CVDNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A07D1A760168AA4309A6FA3D /* CVDNavigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CVDNavigation.podspec; path = ../CVDNavigation.podspec; sourceTree = "<group>"; };
-		B33E3847208959E0AC0C9D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A07D1A760168AA4309A6FA3D /* CVDNavigation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CVDNavigation.podspec; path = ../CVDNavigation.podspec; sourceTree = "<group>"; };
+		B33E3847208959E0AC0C9D0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D418276E904E208BE8C433FF /* Pods_CVDNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVDNavigation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D58A3D571D957F3CB3A4AC22 /* Pods_CVDNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CVDNavigation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +84,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		494E117924FB3EA500105581 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				494E117A24FB3ECC00105581 /* MockViewController.swift */,
+			);
+			name = Mock;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		494E117F24FB56B900105581 /* RouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				494E117924FB3EA500105581 /* Mock */,
+				607FACEB1AFB9204008FA782 /* CVDNavigationRouterTest.swift */,
+				494E117C24FB555E00105581 /* CVDNavigationHostManagerTest.swift */,
+			);
+			path = RouterTests;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +129,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				494E117724FB167900105581 /* ViewControllerB.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -124,7 +150,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				494E117F24FB56B900105581 /* RouterTests */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -171,7 +197,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				182846C3832DF3760448F1C5 /* [CP] Embed Pods Frameworks */,
+				024DE592407B201B516314C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,27 +235,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1130;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "CVDNavigation" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -265,7 +290,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		182846C3832DF3760448F1C5 /* [CP] Embed Pods Frameworks */ = {
+		024DE592407B201B516314C2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494E117824FB167900105581 /* ViewControllerB.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -363,7 +389,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				494E117E24FB557600105581 /* CVDNavigationHostManagerTest.swift in Sources */,
+				494E117B24FB3ECC00105581 /* MockViewController.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* CVDNavigationRouterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +429,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -409,12 +438,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -454,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -462,12 +494,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -510,7 +544,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -528,7 +562,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -549,7 +583,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVDNavigation_Example.app/CVDNavigation_Example";
 			};
 			name = Debug;
@@ -567,7 +601,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVDNavigation_Example.app/CVDNavigation_Example";
 			};
 			name = Release;
