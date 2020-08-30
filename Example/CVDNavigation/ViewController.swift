@@ -7,18 +7,23 @@
 //
 
 import UIKit
+import CVDNavigation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    @IBAction func presentViewControllerB(_ sender: Any) {
+        let url = URL(string: "cvd://home/main")!
+        let viewController = CVDNavigationRouter.shared.viewController(for: url)
 
+        if let viewController = viewController {
+            self.present(viewController, animated: true, completion: nil)
+        } else {
+            print("unable to load view controller")
+        }
+
+    }
 }
-
